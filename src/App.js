@@ -6,7 +6,6 @@ const cities = [
   'Buenos Aires,ar',
   'Washington,us',
   'Bogota,col',
-  'Ciudad de mexico,mx',
   'Madrid,mx',
   'Lima,pe',
 ];
