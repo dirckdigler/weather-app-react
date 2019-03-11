@@ -11,10 +11,18 @@ const cities = [
 ];
 
 class App extends Component {
+  handleSelectedLocation= city  => {
+    console.log(`handleSelectedLocation ${city}`);
+  };
+
   render() {
     return (
       <div className = 'App'>
-        <LocationsList cities={cities}></LocationsList>
+        <LocationsList
+          cities={cities}
+          onSelectedLocation={this.handleSelectedLocation}
+        >
+        </LocationsList>
       </div>
     );
   }
